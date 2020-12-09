@@ -2,7 +2,7 @@
   "name": "hal-json-normalizer",
   "version": "3.0.2",
   "description": "HAL JSON API response normalizer",
-  "main": "dist/bundle.js",
+  "main": "src/normalize.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack -p",
     "clean": "cross-env rimraf dist coverage lib",
